@@ -2,4 +2,4 @@ FROM ollama/ollama
 
 EXPOSE 11434
 
-CMD ["/bin/ollama", "serve"]
+CMD ["ollama", "serve"]
